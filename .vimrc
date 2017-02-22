@@ -46,6 +46,12 @@ let g:ycm_autoclose_preview_window_after_completion = 1
 
 :set tags=./tags;
 
+if !exists("g:ycm_semantic_triggers")
+	let g:ycm_semantic_triggers = {}
+endif
+let g:ycm_semantic_triggers['typescript'] = ['.']
+
+
 "autocmd StdinReadPre * let s:std_in=1
 "autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 let g:nerdtree_tabs_open_on_console_startup=1
@@ -53,9 +59,14 @@ map <C-n> :NERDTreeTabsToggle<CR>
 let NERDTreeIgnore = ['\.pyc$']
 let g:NERDTreeMouseMode=2
 
-if !exists("g:ycm_semantic_triggers")
-	let g:ycm_semantic_triggers = {}
-endif
-let g:ycm_semantic_triggers['typescript'] = ['.']
 
-"JS Indent
+
+" Syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
