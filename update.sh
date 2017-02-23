@@ -1,1 +1,1 @@
-git submodule update --depth 1 --recursive
+git pull --recurse-submodules --depth 1
