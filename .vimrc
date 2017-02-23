@@ -53,8 +53,8 @@ let g:ycm_semantic_triggers['typescript'] = ['.']
 
 
 "autocmd StdinReadPre * let s:std_in=1
-"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-let g:nerdtree_tabs_open_on_console_startup=1
+"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTreeTabsOpen | endif
+let g:nerdtree_tabs_open_on_console_startup=2
 map <C-n> :NERDTreeTabsToggle<CR>
 let NERDTreeIgnore = ['\.pyc$']
 let g:NERDTreeMouseMode=2
