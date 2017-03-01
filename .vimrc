@@ -28,9 +28,14 @@ set t_Co=256
 
 filetype plugin indent on
 
+let &t_ti.="\e[1 q"
+let &t_SI.="\e[5 q"
+let &t_EI.="\e[1 q"
+let &t_te.="\e[0 q"
+
 syntax enable
 set background=light
-"let g:solarized_termcolors=16
+"let g:solarized_termcolors=256
 "let g:solarized_contrast="high"
 "let g:solarized_visibility="high"
 colorscheme solarized
