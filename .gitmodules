@@ -33,6 +33,8 @@
 [submodule "home/.vim/bundle/delimitmate"]
 	path = home/.vim/bundle/delimitmate
 	url = https://github.com/raimondi/delimitmate
+	shallow = true
 [submodule "home/.vim/bundle/matchit.zip"]
 	path = home/.vim/bundle/matchit.zip
 	url = https://github.com/vim-scripts/matchit.zip
+	shallow = true
