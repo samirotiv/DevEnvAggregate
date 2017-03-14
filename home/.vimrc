@@ -24,6 +24,7 @@ set title                " change the terminal's title
 set visualbell           " don't beep
 set noerrorbells         " don't beep
 
+set term=xterm-256color
 set t_Co=256
 
 filetype plugin indent on
@@ -41,6 +42,7 @@ set background=light
 colorscheme solarized
 
 set mouse=a
+set ttymouse=xterm2
 
 set laststatus=2
 set showtabline=2
