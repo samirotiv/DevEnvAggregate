@@ -1,2 +1,2 @@
-cp -R home/* ~/
+cp -R home/. ~/
 cat ~/dev_exports >> ~/.bashrc
