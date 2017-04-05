@@ -48,7 +48,7 @@ set laststatus=2
 set showtabline=2
 
 let g:ycm_global_ycm_extra_conf = "~/.vim/bundle/global_ycm_extra_conf.py"
-let g:ycm_min_num_of_chars_for_completion = 1
+let g:ycm_min_num_of_chars_for_completion = 0
 let g:ycm_autoclose_preview_window_after_completion = 1
 
 :set tags=./tags;
