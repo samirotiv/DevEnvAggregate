@@ -45,6 +45,7 @@ set mouse=a
 set ttymouse=xterm2
 
 set laststatus=2
+set statusline+=%F
 set showtabline=2
 
 let g:ycm_global_ycm_extra_conf = "~/.vim/bundle/global_ycm_extra_conf.py"
