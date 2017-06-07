@@ -78,3 +78,6 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+"let g:syntastic_python_flake8_post_args='--ignore=E128,E203,E225,E226,E231,E251,E265,E302,E305,E306,E501,W293'
+let g:syntastic_python_flake8_post_args='--ignore=E,W'

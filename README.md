@@ -38,3 +38,4 @@ These will be installed automatically if on Ubuntu:
 - Python/Python3 Dev Headers
 - npm & Typescript
 - Jedi
+- flake8
