@@ -8,3 +8,4 @@ git submodule add --depth 1 https://github.com/Valloric/YouCompleteMe.git
 git submodule add --depth 1 https://github.com/vim-syntastic/syntastic.git
 git submodule add --depth 1 https://github.com/raimondi/delimitmate
 git submodule add --depth 1 https://github.com/vim-scripts/matchit.zip
+git submodule add --depth 1 https://github.com/Valloric/ListToggle.git
