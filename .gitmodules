@@ -41,3 +41,6 @@
 [submodule "home/.vim/bundle/ListToggle"]
 	path = home/.vim/bundle/ListToggle
 	url = https://github.com/Valloric/ListToggle.git
+[submodule "packages/vim"]
+	path = packages/vim
+	url = https://github.com/vim/vim.git
