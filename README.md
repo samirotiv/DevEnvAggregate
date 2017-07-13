@@ -2,7 +2,7 @@
 
 ## Environment
 - Solarized Light colorscheme
-- Vim
+- Vim Plugins
     - Intelligent autocomplete
     - File explorer
     - Git integration 
@@ -29,9 +29,12 @@
 - Once build is ready, run `bash copy.sh`
 - Set terminal colorscheme to Solarized Light
 
+## Optional: Vim from source
+See the packages folder to install vim from source. Given script: build-vim.sh
+
 ## Prerequisites
 These will be installed automatically if on Ubuntu:
-- vim
+- vim (Repo version)
 - tmux
 - tig
 - CMake
