@@ -1,43 +1,33 @@
 [submodule "home/.vim/bundle/vim-pathogen"]
 	path = home/.vim/bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
-	shallow = true
 [submodule "home/.vim/bundle/nerdtree"]
 	path = home/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-	shallow = true
 [submodule "home/.vim/bundle/nerdtree-git-plugin"]
 	path = home/.vim/bundle/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
-	shallow = true
 [submodule "home/.vim/bundle/vim-nerdtree-tabs"]
 	path = home/.vim/bundle/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
-	shallow = true
 [submodule "home/.vim/bundle/vim-colors-solarized"]
 	path = home/.vim/bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
-	shallow = true
 [submodule "home/.vim/bundle/yats.vim"]
 	path = home/.vim/bundle/yats.vim
 	url = https://github.com/HerringtonDarkholme/yats.vim.git
-	shallow = true
 [submodule "home/.vim/bundle/YouCompleteMe"]
 	path = home/.vim/bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
-	shallow = true
 [submodule "home/.vim/bundle/syntastic"]
 	path = home/.vim/bundle/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
-	shallow = true
 [submodule "home/.vim/bundle/delimitmate"]
 	path = home/.vim/bundle/delimitmate
 	url = https://github.com/raimondi/delimitmate
-	shallow = true
 [submodule "home/.vim/bundle/matchit.zip"]
 	path = home/.vim/bundle/matchit.zip
 	url = https://github.com/vim-scripts/matchit.zip
-	shallow = true
 [submodule "home/.vim/bundle/ListToggle"]
 	path = home/.vim/bundle/ListToggle
 	url = https://github.com/Valloric/ListToggle.git

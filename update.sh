@@ -1,2 +1,6 @@
-sudo pip install -r requirements.txt --upgrade
-git pull --recurse-submodules --depth 1
+cd "${0%/*}"
+cur=$PWD
+export LC_ALL=C
+
+git pull
+git submodule update --recursive --remote --jobs 5
